@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Studio</title>
+    <meta
+      name="description"
+      content="A modern, responsive frontend landing page built for fast deployment on GitHub and Netlify."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Nova Studio home">
+        <span class="brand-mark">N</span>
+        <span class="brand-text">Nova Studio</span>
+      </a>
+
+      <button class="menu-button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#work">Work</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact" class="nav-cta">Get Started</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Frontend webpage • GitHub ready • Netlify friendly</p>
+          <h1>Build a clean, modern webpage that feels premium from day one.</h1>
+          <p class="lead">
+            Nova Studio is a polished single-page frontend with a responsive layout,
+            smooth interactions, and a deployment setup ready for GitHub and Netlify.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Start a Project</a>
+            <a class="button button-secondary" href="#features">See Features</a>
+          </div>
+          <ul class="trust-list" aria-label="Highlights">
+            <li>Fast loading</li>
+            <li>Mobile first</li>
+            <li>Easy to customize</li>
+          </ul>
+        </div>
+
+        <div class="hero-card floating-card">
+          <div class="card-top">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <div class="card-body">
+            <p class="mini-label">Live preview</p>
+            <h2>Smart design system</h2>
+            <p>
+              Flexible sections, bold typography, and a strong call to action make this
+              ideal for a personal brand, agency, or startup landing page.
+            </p>
+            <div class="metric-grid">
+              <div>
+                <strong>98%</strong>
+                <span>Performance</span>
+              </div>
+              <div>
+                <strong>24h</strong>
+                <span>Launch ready</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>Responsive</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Features</p>
+          <h2>Everything needed for a strong first release.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="icon">⚡</span>
+            <h3>Fast and lightweight</h3>
+            <p>Simple HTML, CSS, and JavaScript keep the page quick and easy to maintain.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon">📱</span>
+            <h3>Responsive layout</h3>
+            <p>Designed to look polished on phones, tablets, laptops, and wide screens.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon">🎨</span>
+            <h3>Modern visual style</h3>
+            <p>Soft gradients, glass effects, and clean spacing create a premium feel.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section split-section reveal">
+        <div>
+          <p class="eyebrow">Workflow</p>
+          <h2>Built to be easy to push to GitHub and deploy on Netlify.</h2>
+          <p>
+            The project structure is intentionally simple so you can publish it as a static
+            site without extra configuration. Add your own content, connect a GitHub repo,
+            and deploy in minutes.
+          </p>
+        </div>
+        <div class="steps">
+          <div class="step"><span>01</span><p>Customize the content and branding.</p></div>
+          <div class="step"><span>02</span><p>Commit the files to GitHub.</p></div>
+          <div class="step"><span>03</span><p>Connect the repo to Netlify and deploy.</p></div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section reveal">
+        <div class="section-heading center">
+          <p class="eyebrow">Simple plan</p>
+          <h2>One clear package to get your site live.</h2>
+        </div>
+
+        <div class="pricing-card">
+          <div>
+            <h3>Starter Launch</h3>
+            <p>Perfect for a personal site, portfolio, or small business landing page.</p>
+          </div>
+          <div class="price">$0<span>/ setup</span></div>
+          <ul>
+            <li>Responsive homepage</li>
+            <li>Netlify-ready static files</li>
+            <li>GitHub-friendly structure</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section reveal">
+        <div>
+          <p class="eyebrow">Next step</p>
+          <h2>Ready to publish your frontend?</h2>
+          <p>
+            Replace the placeholder text with your own content, then deploy the project.
+          </p>
+        </div>
+        <a class="button button-primary" href="mailto:hello@example.com">Contact</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Nova Studio. Built for GitHub and Netlify deployment.</p>
+    </footer>
+  </body>
+</html>
